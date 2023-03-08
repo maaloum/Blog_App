@@ -6,6 +6,8 @@ ruby '3.1.3'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.4', '>= 7.0.4.2'
 
+gem 'rubocop', '>= 1.0', '< 2.0'
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
 
@@ -61,7 +63,7 @@ group :development do
   # gem "rack-mini-profiler"
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
- gem "spring"
+  # gem "spring"
 end
 
 group :test do
