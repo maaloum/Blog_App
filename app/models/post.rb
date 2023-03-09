@@ -5,7 +5,7 @@ class Post < ApplicationRecord
 
   after_save :update_post_counter
 
-  
+
   validates :title, presence: true, length: {
     maximum: 250
   }
